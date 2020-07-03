@@ -307,7 +307,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(array){
 
-  return i > 100;
+  return ;
 
 }
 
