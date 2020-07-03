@@ -201,6 +201,7 @@ const artists = [
     }
 ]
 
+
 // 🖌🖼 M V P 🖼🖌 //
 
 /* Task 1: Practice accessing data above by console.log-ing following items:
@@ -230,19 +231,22 @@ console.log(artists[8]);
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(array, index) {
-    /* code here */
-  }
   
+  return "The artist at index " + index + " is "  + array;
+}
+  
+console.log(getArtistByIndex(artists[0].name, [0]));
   /**
-
+3
 
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born in and died in 20th century (1900-2000) example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included - should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/* Code here */){
+function get20s(data){
 
-  /* Code here */
+  return 
 
 }
+
 
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
@@ -255,10 +259,15 @@ function get20s(/* Code here */){
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
-function removeArtist(/*code here*/) {
-    /* code here */
-  }
+function removeArtist(array, index) {
+    
   
+
+  }
+  artists.shift();
+  console.log(artists.length);
+  console.log(artists);
+
  
 
 /**
@@ -274,11 +283,19 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/* Code here */){
 
-    /* Code here */
+
+
+function addArtist(elosiel) {
+
+   
 
   }
+
+ artists.push("elosiel")
+ console.log(artists);
+
+
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
@@ -288,9 +305,9 @@ and returns an array with names of artists who painted more than 100 paintings.
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 
-function lotsOfArt(/* Code here */){
+function lotsOfArt(array){
 
-  /* Code here */
+  return i > 100;
 
 }
 
